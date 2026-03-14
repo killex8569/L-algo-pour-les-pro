@@ -10,7 +10,7 @@ Je vous conseille de regarder cette vidéo du youtubeur "Ego" juste avant, il ex
 - [Ego - Le jeu de la vie](https://www.youtube.com/watch?v=eMn43As24Bo&t=626s&pp=ygUUZWdvIGxlIGpldSBkZSBsYSB2aWU%3D)
 
 
-## Jeu de la vie 
+## Jeu de la vie (de Conway)
 
 Le jeu de la Vie est un « jeu à zéro joueur », c'est-à-dire qu'il ne nécessite aucune intervention du joueur lors de son déroulement, le jeu de la vie à été "inventé" par John Conway en 1970. 
 L'objectif est de simuler la vie
@@ -24,7 +24,7 @@ Règles du jeu de la vie :
 À chaque "tour" (donc si l'on décide qu'une case devient morte ou vivante), est appeler **une génération**
 
 
-## Configuration du jeu de la vie de Conway
+### Configuration du jeu de la vie de Conway
 
 Grâce à ces propriétés, le jeu de la vie de Conway nous permet de découvrir des "Amas de cellule vivante", des groupes de cellules qui peuvent se déplacer, générer de nouveau groupes de cellules (des géniteurs), des groupes laissant des déchets sur leurs passages, etc...
 
@@ -40,3 +40,10 @@ Voici une liste des **structures** que l'on peut retrouver :
 
 Ce jeu est **turring complet** : 
 Malgré sa simplicité, ce jeu est une machine de Turing universelle : il est possible de calculer tout algorithme pourvu que la grille soit suffisamment grande et les conditions initiales correctes.
+
+
+## Le labyrinthe
+
+L'objectif est de générer un labyrinthe de manière aléatoire (On pourras y définir des paramètres tels que la taille de ce labyrinthe, si il est carré ou rectangulaire etc.)
+
+L'objectif est au final, de générer un labyrinthe complet et unique de taille définis, puis de trouver la sortie(trouver un chemin qui mène à une sortie)
