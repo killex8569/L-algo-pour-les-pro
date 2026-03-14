@@ -1,0 +1,3 @@
+- Exo sur les listes : Cherches dans une liste de str un int et le supprimer, refaire sur toute la liste et random la liste (une fonction de création de liste qui implémente X int dans la liste, puis une seocnde fonction pour retrouver tout les int dans la liste créer et les supprimer en donnant leurs index)
+- Refaire l'équivalent du pivot de Gauss en python 
+- Les matrices (Produit d'une matrice, additionner deux matrices, déterminer si une matrice est inversible, )
